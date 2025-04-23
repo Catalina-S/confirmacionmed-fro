@@ -15,7 +15,7 @@ document.getElementById('MedicamentosForm').addEventListener('submit', function(
     // Crear el objeto MedicationRequest
     const medicationRequest = {
       resourceType: "MedicationRequest",
-      status: "active",
+      status: "preparation",
       intent: "order",
       medicationCodeableConcept: {
         coding: [{
