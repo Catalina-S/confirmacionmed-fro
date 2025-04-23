@@ -1,4 +1,4 @@
-const backendUrl = "https://meds-backend-fjhd.onrender.com";  // (ya está en Render el tuyo)
+const backendUrl = "https://confirmacionmed-fro-f.onrender.com";  
 
 async function prepararMedicamento() {
   const id = document.getElementById('medicationId').value;
